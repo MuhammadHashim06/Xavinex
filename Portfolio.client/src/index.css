@@ -1,0 +1,48 @@
+:root {
+    /* Primary Colors */
+    --primary-blue: #00AEEF;
+    --primary-orange: #FF6600;
+    --primary-black: #000000;
+    --primary-white: #FFFFFF;
+  
+    /* Secondary Colors */
+    --secondary-blue: #66D0FF;
+    --secondary-orange: #FF9966;
+    --light-grey: #F5F5F5;
+    --dark-grey: #333333;
+  
+    /* Backgrounds */
+    --bg-light: var(--primary-white);
+    --bg-dark: var(--dark-grey);
+    --bg-accent: var(--secondary-blue);
+  
+    /* Text Colors */
+    --text-primary: var(--primary-black);
+    --text-secondary: var(--dark-grey);
+    --text-accent: var(--primary-orange);
+  
+    /* Borders */
+    --border-light: #E0E0E0;
+    --border-dark: var(--dark-grey);
+  
+    /* Buttons */
+    --button-primary-bg: var(--primary-blue);
+    --button-primary-hover: var(--primary-orange);
+    --button-secondary-bg: var(--secondary-blue);
+    --button-secondary-hover: var(--secondary-orange);
+    
+    /* Shadows */
+    --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-dark: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
