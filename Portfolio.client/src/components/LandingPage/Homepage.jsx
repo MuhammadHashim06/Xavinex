@@ -1,6 +1,7 @@
 import Header from './Header';
 import Service from './Service'
 import Oppotunity from './Oppotunity';
+import Challenges from './Challenges';
 
 export default function Homepage() {
   return (
@@ -8,6 +9,7 @@ export default function Homepage() {
       <Header />
       <Service />
       <Oppotunity />
+      <Challenges/>
     </div>
   );
 }

@@ -7,13 +7,10 @@ import { Link } from "react-router-dom";
 import logotext from "../../assets/Xavinex logo with left alignment-05.png"
 
 export default function Navbar() {
-  const [isScrolled, setIsScrolled] = useState(false);
   const [isDrawerVisible, setIsDrawerVisible] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  const handleScroll = () => {
-    setIsScrolled(window.scrollY > 20);
-  };
+  
 
   const handleResize = () => {
     setWindowWidth(window.innerWidth);
@@ -24,11 +21,9 @@ export default function Navbar() {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
     window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("resize", handleResize);
     };
   }, []);
@@ -36,7 +31,7 @@ export default function Navbar() {
   const isMobile = windowWidth <= 768;
 
   return (
-    <div className={`navbar ${isScrolled ? "scrolled" : ""}`}>
+    <div className={`navbar`}>
       <div className="logo text-3xl">
         {" "}
         <Link to="/">
