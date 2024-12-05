@@ -79,7 +79,7 @@ export default function Challenges() {
               Schedule a meeting to get consulted about the services you need.
             </h1>
             <button>
-              Let's Chat <i className="fa-solid fa-arrow-right"></i>{" "}
+              Let s Chat <i className="fa-solid fa-arrow-right"></i>{" "}
             </button>
           </div>
           <div className="chaimage">
