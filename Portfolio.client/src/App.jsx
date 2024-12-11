@@ -7,10 +7,13 @@ import HireExpert from "./components/HireExpert/HireExpert";
 import ResourcesPage from "./components/ResourcesPage/ResourcesPage";
 import Navbar from "./components/utilities/Navbar";
 import Footer from "./components/utilities/Footer";
+import ContactPage from "./components/ContactPage/ContactPage";
+// import Request from "./components/utilities/Request";
 
 function App() {
   return (
     <>
+    {/* <Request/> */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
@@ -18,6 +21,8 @@ function App() {
         <Route path="/case-studies" element={<CaseStudies />} />
         <Route path="/hire-expert" element={<HireExpert />} />
         <Route path="/resources" element={<ResourcesPage />} />
+        <Route path="/contact-us" element={<ContactPage />} />
+
       </Routes>
       <Footer />
     </>
