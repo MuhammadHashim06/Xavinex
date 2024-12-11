@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Homepage from "./components/LandingPage/Homepage";
 import ServicePage from "./components/ServicesPage/ServicePage";
@@ -8,21 +8,25 @@ import ResourcesPage from "./components/ResourcesPage/ResourcesPage";
 import Navbar from "./components/utilities/Navbar";
 import Footer from "./components/utilities/Footer";
 import ContactPage from "./components/ContactPage/ContactPage";
-// import Request from "./components/utilities/Request";
+import Admin from "./components/Admin/Admin";
+import Login from "./components/Admin/components/Login";
 
 function App() {
   return (
     <>
-    {/* <Request/> */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/admin/*" element={<Admin />}>
+          <Route index element={<Navigate to="login" />} />
+          <Route path="login" element={<Login />} />
+        </Route>
+
         <Route path="/services" element={<ServicePage />} />
         <Route path="/case-studies" element={<CaseStudies />} />
         <Route path="/hire-expert" element={<HireExpert />} />
         <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/contact-us" element={<ContactPage />} />
-
       </Routes>
       <Footer />
     </>
