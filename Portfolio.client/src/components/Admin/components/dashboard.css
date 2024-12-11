@@ -1,0 +1,35 @@
+/* dashboard.css */
+.dashboard {
+    font-family: Arial, sans-serif;
+ 
+  
+  .site-layout-background {
+    background: #fff;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .dashboard-content {
+    background-color: #f0f2f5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+} 
+  /* Mobile responsive layout adjustments */
+  @media (max-width: 768px) {
+    .site-layout-background {
+      padding: 10px;
+    }
+  
+    .dashboard-content {
+      padding: 10px;
+    }
+  }
+  

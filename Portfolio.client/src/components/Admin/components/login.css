@@ -4,51 +4,52 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(var(--primary-blue) , var(--secondary-orange)) ;
-  }
-  
-  h1 {
+    background: linear-gradient(var(--primary-blue), var(--secondary-orange));
+}
+
+h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
-  }
+}
 
-  .login-form {
+.login-form {
     display: flex;
     flex-direction: column;
     width: 400px;
     padding: 20px;
     background-color: white;
-    /* background-color: var(--primary-blue); */
-
+    box-sizing: border-box;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .form-group {
+}
+
+.form-group {
     margin-bottom: 1rem;
-  }
-  
-  label {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
     margin-bottom: 0.5rem;
     font-size: 1rem;
-  }
-  
-  input {
-    width: 100%;
+}
+
+input {
+    /* width: 100%; */
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-top: 0.5rem;
-  }
-  
-  input:focus {
-    border-color: #4caf50;
+}
+
+input:focus {
+    border-color: var(--primary-blue);
     outline: none;
-  }
-  
-  .login-button {
-    background-color: #4caf50;
+}
+
+.login-button {
+    background-color: var(--primary-blue);
     color: white;
     padding: 10px;
     font-size: 1rem;
@@ -56,9 +57,8 @@
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
-  }
-  
-  .login-button:hover {
-    background-color: #45a049;
-  }
-  
+}
+
+.login-button:hover {
+    background-color: var(--secondary-blue);
+}
