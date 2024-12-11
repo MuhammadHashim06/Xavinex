@@ -7,7 +7,7 @@ export default function Oppotunity() {
     <div className="landopportunity">
       <div className="leftbox">
         <h1 className="title font-bold text-4xl">
-        <span>Versatile </span>Collaboration Opportunities for All
+        <span>Dynamic </span>Collaboration Opportunities for All
         </h1>
         <div className="opportunity">
           <div className="card">
@@ -18,8 +18,8 @@ export default function Oppotunity() {
             <div className="content">
               <h1 className="font-bold">Startups</h1>
               <p className="text-md">
-                Unleash your product potential with unlimited tech support from
-                MVP to marketing and elevate your digital journey
+              Accelerate your startup’s growth with AI-powered tools and tailored tech solutions. From MVP development to market entry, we help you scale seamlessly.
+
               </p>
               <h1 className="font-bold">Discuss your idea</h1>
             </div>
@@ -33,8 +33,8 @@ export default function Oppotunity() {
             <div className="content">
               <h1 className="font-bold">Scaleups</h1>
               <p>
-                Empower the future of your growth companies and accelerate your
-                innovation through highly qualified specialists.{" "}
+              Empower your business to scale with AI-driven innovation and cutting-edge solutions. Accelerate growth with strategic guidance and seamless implementation.
+              {" "}
               </p>
               <h1 className="font-bold">Share your project insights</h1>
             </div>
@@ -48,8 +48,7 @@ export default function Oppotunity() {
             <div className="content">
               <h1 className="font-bold">SMBs & Enterprises</h1>
               <p>
-                Automate your business processes with seamless software
-                solutions through smartly tailored tech collaboration.{" "}
+              Automate processes and unlock new opportunities with customized AI-powered tools and software solutions. Transform your business with expert collaboration{" "}
               </p>
               <h1 className="font-bold">Connect with our experts now</h1>
             </div>

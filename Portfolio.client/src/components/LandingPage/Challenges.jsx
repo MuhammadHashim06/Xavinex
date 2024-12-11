@@ -26,9 +26,9 @@ const logos = [
 
 const lowerhire = [
   {
-    heading: "Skip the recruitment bottlenecks.",
+    heading: "Simplify Your Hiring Process",
     subheading:
-      "Hire our full-time devs and onboard them within 2 weeks with simple, seamless, and streamlined tech hiring process.",
+      "Hire skilled developers, AI consultants, and tech experts through our seamless hiring process, designed to save you time and deliver exceptional results.",
     buttontext: "Start Hiring now",
     url: "",
     imgurl: hire1,
@@ -36,15 +36,15 @@ const lowerhire = [
   {
     heading: "How Our Hiring Process Works?",
     subheading:
-      "Unlock your success through our thorough screening process where we vet and bring you only the top 3% of tech talent efficiently.",
+      "We rigorously vet candidates to bring you the top 3% of skilled professionals, ensuring expertise and a perfect fit for your requirements.",
     buttontext: "Hire Super Talent",
     url: "",
     imgurl: hire1,
   },
   {
-    heading: "How our CAP™ methodology is used to ensure quality?",
+    heading: "How Our CAP™ Methodology Ensures Quality",
     subheading:
-      "Explore how our production engine works with guaranteed quality; Maximize your business potential innovatively at every step.",
+      "Discover the power of our CAP™ (Collaborate, Analyze, Perfect) methodology, designed to guarantee precision and excellence in every project",
     buttontext: "Start Conversation",
     url: "",
     imgurl: hire1,
@@ -75,9 +75,15 @@ export default function Challenges() {
         <div className="techchallenge">
           <div className="chatext">
             <h1>
-              <span>Got any tech challenges?</span> <br />
-              Schedule a meeting to get consulted about the services you need.
+              <span>Facing Tech Challenges?</span> <br />
+              Let’s Solve Them Together!
+
             </h1>
+            <p>
+            Collaborate with Xavinex to tackle your toughest technology challenges with AI-powered solutions and innovative strategies.
+Schedule a meeting to discuss how we can empower your business and help you scale effectively.
+
+            </p>
             <button>
               Let s Chat <i className="fa-solid fa-arrow-right"></i>{" "}
             </button>

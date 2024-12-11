@@ -40,21 +40,9 @@ export default function Header() {
         <div className="text">
           <div className="logo">
             {" "}
-            <img src={clutch} alt="" />
+            {/* <img src={clutch} alt="" /> */}
           </div>
-          <p className="font-bold text-white">Leader in AI-Powered Outreach: Revolutionizing customer engagement through data-driven, scalable solutions.</p>
-        </div>
-      </div>
-      <div className="box">
-        <div className="wing">
-          <img src={wings} alt="" />
-        </div>
-        <div className="text">
-          <div className="logo">
-            {" "}
-            <img src={Techimply} alt="" />
-          </div>
-          <p className="font-bold text-white">Top Generative AI Innovators: Pioneering advancements in generative AI to transform businesses globally.
+          <p className="font-bold text-white">AI-Powered Outreach Leader: Transforming customer engagement with data-driven solutions.
           </p>
         </div>
       </div>
@@ -65,9 +53,10 @@ export default function Header() {
         <div className="text">
           <div className="logo">
             {" "}
-            <img src={GoodFirms} alt="" />
+            {/* <img src={Techimply} alt="" /> */}
           </div>
-          <p className="font-bold text-white">Excellence in Microservices Development: Crafting scalable microservices for seamless integration and growth.
+          <p className="font-bold text-white">Generative AI Innovators: Pioneering advancements in AI for global businesses.
+
           </p>
         </div>
       </div>
@@ -78,21 +67,10 @@ export default function Header() {
         <div className="text">
           <div className="logo">
             {" "}
-            <img src={TechDeveloper} alt="" />
+            {/* <img src={GoodFirms} alt="" /> */}
           </div>
-          <p className="font-bold text-white">Customer-Centric AI Solutions: Focused on enabling businesses to achieve exceptional success with intelligent automation.</p>
-        </div>
-      </div>
-      <div className="box">
-        <div className="wing">
-          <img src={wings} alt="" />
-        </div>
-        <div className="text">
-          <div className="logo">
-            {" "}
-            <img src={Designrush} alt="" />
-          </div>
-          <p className="font-bold text-white">Trusted Software Development Partner: Providing cutting-edge software tailored to unique business needs.
+          <p className="font-bold text-white">Microservices Experts: Delivering scalable and efficient microservices.
+
           </p>
         </div>
       </div>
@@ -103,9 +81,36 @@ export default function Header() {
         <div className="text">
           <div className="logo">
             {" "}
-            <img src={Firmstalk} alt="" />
+            {/* <img src={TechDeveloper} alt="" /> */}
           </div>
-          <p className="font-bold text-white">Sustainability-Driven Solutions: Ensuring positive global impact through sustainable AI practices.</p>
+          <p className="font-bold text-white">Customer-Centric Solutions: Driving success with intelligent automation.
+          </p>
+        </div>
+      </div>
+      <div className="box">
+        <div className="wing">
+          <img src={wings} alt="" />
+        </div>
+        <div className="text">
+          <div className="logo">
+            {" "}
+            {/* <img src={Designrush} alt="" /> */}
+          </div>
+          <p className="font-bold text-white">Trusted Software Partner: Tailoring software to unique business needs.
+
+          </p>
+        </div>
+      </div>
+      <div className="box">
+        <div className="wing">
+          <img src={wings} alt="" />
+        </div>
+        <div className="text">
+          <div className="logo">
+            {" "}
+            {/* <img src={Firmstalk} alt="" /> */}
+          </div>
+          <p className="font-bold text-white">Sustainability Focused: Creating impactful and eco-friendly solutions.</p>
         </div>
       </div>
       </div>
