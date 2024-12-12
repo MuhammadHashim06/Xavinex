@@ -11,6 +11,8 @@ import ContactPage from "./components/ContactPage/ContactPage";
 import Admin from "./components/Admin/Admin";
 import Login from "./components/Admin/components/Login";
 import Dashboard from "./components/Admin/components/Dashboard";
+import Statistics from "./components/Admin/components/Statistics";
+import Request from "./components/Admin/components/Request";
 
 function App() {
   return (
@@ -21,7 +23,11 @@ function App() {
         <Route path="/admin/*" element={<Admin />}>
           <Route index element={<Navigate to="login" />} />
           <Route path="login" element={<Login />} />
-          <Route path="dashboard" element={<Dashboard />} />
+          <Route path="dashboard" element={<Dashboard />}>
+          <Route index element={<Navigate to="stats" />} />
+          <Route path="stats" element={<Statistics />} />
+          <Route path="request" element={<Request />} />
+          </Route>
         </Route>
 
         <Route path="/services" element={<ServicePage />} />

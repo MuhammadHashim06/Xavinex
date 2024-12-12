@@ -9,7 +9,7 @@ import Techimply from "../../assets/Techimply.png";
 import wings from "../../assets/wings.svg";
 export default function Header() {
   return (
-    <div className="header">
+    <div className="landheader">
       <h1 className="text-5xl text-white text-center font-bold">
       Transforming Ideas into Reality with AI-Driven Innovation</h1>
       <div className="bullets">

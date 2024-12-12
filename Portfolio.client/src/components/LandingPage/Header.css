@@ -1,4 +1,4 @@
-.header {
+.landheader {
     background-image: url("../../assets/Home_hero.jpg");
     background-position: center;
     background-size: cover;
@@ -115,8 +115,8 @@
 /* Media Queries for Tablet and Mobile */
 @media screen and (max-width: 1024px) {
 
-    /* Adjust Header Padding for Tablets */
-    .header {
+    /* Adjust landheader Padding for Tablets */
+    .landheader {
         padding: 8% 5% 0% 5%;
         /* Reduced padding */
     }
@@ -149,8 +149,8 @@
 
 @media screen and (max-width: 768px) {
 
-    /* Adjust Header Padding for Mobile */
-    .header {
+    /* Adjust landheader Padding for Mobile */
+    .landheader {
         padding: 6% 5% 0% 5%;
         /* Further reduced padding */
     }

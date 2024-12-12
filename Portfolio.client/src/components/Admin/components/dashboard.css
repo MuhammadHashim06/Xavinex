@@ -1,35 +1,108 @@
-/* dashboard.css */
 .dashboard {
-    font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  background-color: var(--light-grey);
+
+
+.sidebar {
+  width: 14rem;
+  background-color: white;
+  padding: 1.25rem 0rem; 
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  max-width: 7rem; 
+  margin-bottom: 1rem; 
+}
+
+.sidebar-title {
+  font-size: 1.25rem;
+}
+
+.sidebar-nav {
+  flex: 1;
+  padding-top:2rem;
+
+  a{
+    text-decoration: none;
+    color: var(--dark-grey);
+  }
+}
+
+.nav-link {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1.25rem; 
+  text-align: left;
+  font-size: 1rem;
  
-  
-  .site-layout-background {
-    background: #fff;
-  }
-  
-  .header-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-  
-  .dashboard-content {
-    background-color: #f0f2f5;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-  }
-} 
-  /* Mobile responsive layout adjustments */
-  @media (max-width: 768px) {
-    .site-layout-background {
-      padding: 10px;
-    }
-  
-    .dashboard-content {
-      padding: 10px;
-    }
-  }
-  
+}
+
+.nav-link i {
+  margin-right: 0.5rem; 
+}
+
+.active-link {
+  background-color: var(--light-grey); 
+  color: var(--primary-blue);
+
+}
+a.active-link{
+  color: var(--primary-blue);
+
+}
+.hover-link:hover {
+  background-color: #edf2f7; 
+}
+
+
+.sidebar-footer {
+  margin-top: auto;
+}
+
+.logout-link {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1.25rem; 
+  text-align: left;
+  color: #e53e3e; 
+}
+
+.logout-link:hover {
+  background-color: #edf2f7; 
+}
+
+.logout-link i {
+  margin-right: 0.5rem; 
+}
+
+.main-content {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1rem;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 1.25rem;
+}
+
+.header-logo {
+  width: 3.5rem; 
+}
+}
