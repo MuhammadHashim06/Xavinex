@@ -11,7 +11,7 @@ function RequestList() {
   useEffect(() => {
     const fetchRequests = async () => {
       try {
-        const response = await fetch('https://api.example.com/requests'); // Replace with the actual API endpoint
+        const response = await fetch('http://localhost:5000/request/get'); // Replace with the actual API endpoint
         if (!response.ok) {
           throw new Error(`Error: ${response.statusText}`);
         }
@@ -36,8 +36,9 @@ function RequestList() {
   }
 
   return (
-    <div className="request-list">
+    <div className="requestcomp">
       <h2>Requests</h2>
+      <div className="request-list">
       {requests.map((request, index) => (
         <div key={index} className="request-card">
           <p><strong>Name:</strong> {request.name}</p>
@@ -48,6 +49,7 @@ function RequestList() {
           <p><strong>Created At:</strong> {new Date(request.createdAt).toLocaleString()}</p>
         </div>
       ))}
+      </div>
     </div>
   );
 }

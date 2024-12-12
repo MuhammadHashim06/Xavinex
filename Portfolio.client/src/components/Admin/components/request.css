@@ -1,6 +1,6 @@
 /* Request.css */
 
-.request-list {
+.requestcomp {
     background-color: #f9f9f9;
     border-radius: 8px;
     padding: 20px;
@@ -9,13 +9,16 @@
     font-family: Arial, sans-serif;
   }
   
-  .request-list h2 {
+  .requestcomp h2 {
     font-size: 24px;
     color: #333;
     text-align: center;
     margin-bottom: 20px;
   }
-  
+  .request-list{
+    height: 60vh;
+    overflow-y: auto;
+  }
   .request-card {
     background-color: #fff;
     border-radius: 8px;
