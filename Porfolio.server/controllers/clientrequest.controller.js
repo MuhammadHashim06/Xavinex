@@ -47,6 +47,21 @@ export const sendrequest = async (req, res) => {
     }
   };
 
-export const getrequests = async (req,res)=>{
-res.send('Get all request')
-}
+  export const getrequests = async (req, res) => {
+    try {
+      // Fetch all requests from the database
+      const requests = await request.find(); // Assuming 'request' is a Mongoose model
+  
+      // If no requests are found, return a message
+      if (requests.length === 0) {
+        return res.status(404).json({ message: "No requests found" });
+      }
+  
+      // Send the requests as a JSON response
+      res.status(200).json(requests);
+    } catch (error) {
+      // Handle any errors that occur during the request
+      console.error(error);
+      res.status(500).json({ message: "Server error" });
+    }
+  };
