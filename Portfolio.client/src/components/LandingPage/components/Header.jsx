@@ -1,12 +1,12 @@
 // import heroimage from '../../public/home-video-banner.png'
 import "./Header.css";
-import clutch from "../../assets/clutch.png";
-import Designrush from "../../assets/Designrush.png";
-import Firmstalk from "../../assets/Firmstalk.png";
-import GoodFirms from "../../assets/GoodFirms.png";
-import TechDeveloper from "../../assets/TechDeveloper.png";
-import Techimply from "../../assets/Techimply.png";
-import wings from "../../assets/wings.svg";
+import clutch from "../../../assets/clutch.png";
+import Designrush from "../../../assets/Designrush.png";
+import Firmstalk from "../../../assets/Firmstalk.png";
+import GoodFirms from "../../../assets/GoodFirms.png";
+import TechDeveloper from "../../../assets/TechDeveloper.png";
+import Techimply from "../../../assets/Techimply.png";
+import wings from "../../../assets/wings.svg";
 export default function Header() {
   return (
     <div className="landheader">

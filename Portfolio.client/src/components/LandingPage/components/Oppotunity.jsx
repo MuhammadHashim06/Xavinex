@@ -1,7 +1,7 @@
 import "./Opportunity.css";
-import arrow from "../../assets/opportunityarraow.png";
-import opportunityimage from "../../assets/home-opportunity-img-bg.webp.png";
-import opportunityicon from "../../assets/oprtunityicon.png";
+import arrow from "../../../assets/opportunityarraow.png";
+import opportunityimage from "../../../assets/home-opportunity-img-bg.webp.png";
+import opportunityicon from "../../../assets/oprtunityicon.png";
 export default function Oppotunity() {
   return (
     <div className="landopportunity">

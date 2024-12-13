@@ -1,10 +1,10 @@
 import { useState } from "react";
-import cutomsoftware from '../../assets/customsoftware.png'
-import devops from '../../assets/devops.png'
-import legacy from '../../assets/legacy.png'
-import mobileapp from '../../assets/mobileapp.png'
-import qa from '../../assets/qa.png'
-import webapp from '../../assets/webapp.png'
+import cutomsoftware from '../../../assets/customsoftware.png'
+import devops from '../../../assets/devops.png'
+import legacy from '../../../assets/legacy.png'
+import mobileapp from '../../../assets/mobileapp.png'
+import qa from '../../../assets/qa.png'
+import webapp from '../../../assets/webapp.png'
 import "./Service.css";
 
 export default function Service() {

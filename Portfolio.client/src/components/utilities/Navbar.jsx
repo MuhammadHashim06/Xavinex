@@ -60,9 +60,9 @@ export default function Navbar() {
               <Link to="hire-expert">
                 <li>Hire Expert</li>
               </Link>
-              <Link to="resources">
+              {/* <Link to="resources">
                 <li>Resources</li>
-              </Link>
+              </Link> */}
             </ul>
           </div>
         )}
@@ -87,9 +87,9 @@ export default function Navbar() {
             <Link to="hire-expert">
               <li>Hire Expert</li>
             </Link>
-            <Link to="resources">
+            {/* <Link to="resources">
               <li>Resources</li>
-            </Link>
+            </Link> */}
           </ul>
         </Drawer>
       </div>

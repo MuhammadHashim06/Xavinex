@@ -1,21 +1,19 @@
-import Header from './Header';
-import Service from './Service'
-import Oppotunity from './Oppotunity';
-import Challenges from './Challenges';
-import Footer from '../utilities/Footer';
-import Navbar from '../utilities/Navbar';
+import Header from "./components/Header";
+import Service from "./components/Service";
+import Oppotunity from "./components/Oppotunity";
+import Challenges from "./components/Challenges";
+import Footer from "../utilities/Footer";
+import Navbar from "../utilities/Navbar";
 
 export default function Homepage() {
   return (
     <div>
-            <Navbar />
-
+      <Navbar />
       <Header />
       <Service />
       <Oppotunity />
-      <Challenges/>
+      <Challenges />
       <Footer />
-
     </div>
   );
 }

@@ -1,16 +1,16 @@
 import "./Challenges.css";
-import client1 from "../../assets/Bookfy.png";
-import client2 from "../../assets/Alvee.svg.png";
-import client3 from "../../assets/IREP.svg.png";
-import client4 from "../../assets/MyFriend.svg.png";
-import client5 from "../../assets/YallaGrub.svg.png";
-import client6 from "../../assets/Alvee.svg.png";
-import client7 from "../../assets/IREP.svg.png";
-import client8 from "../../assets/MyFriend.svg.png";
-import client9 from "../../assets/YallaGrub.svg.png";
-import techchallengeimg from "../../assets/Challaenges.png";
+import client1 from "../../../assets/Bookfy.png";
+import client2 from "../../../assets/Alvee.svg.png";
+import client3 from "../../../assets/IREP.svg.png";
+import client4 from "../../../assets/MyFriend.svg.png";
+import client5 from "../../../assets/YallaGrub.svg.png";
+import client6 from "../../../assets/Alvee.svg.png";
+import client7 from "../../../assets/IREP.svg.png";
+import client8 from "../../../assets/MyFriend.svg.png";
+import client9 from "../../../assets/YallaGrub.svg.png";
+import techchallengeimg from "../../../assets/Challaenges.png";
 
-import hire1 from "../../assets/recruitment-img.png";
+import hire1 from "../../../assets/recruitment-img.png";
 
 const logos = [
   client1,
