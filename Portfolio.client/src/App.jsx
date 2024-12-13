@@ -5,8 +5,6 @@ import ServicePage from "./components/ServicesPage/ServicePage";
 import CaseStudies from "./components/CaseStudies/CaseStudies";
 import HireExpert from "./components/HireExpert/HireExpert";
 import ResourcesPage from "./components/ResourcesPage/ResourcesPage";
-// import Navbar from "./components/utilities/Navbar";
-// import Footer from "./components/utilities/Footer";
 import ContactPage from "./components/ContactPage/ContactPage";
 import Admin from "./components/Admin/Admin";
 import Login from "./components/Admin/components/Login";
@@ -17,7 +15,6 @@ import Request from "./components/Admin/components/Request";
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/admin/*" element={<Admin />}>
@@ -36,7 +33,6 @@ function App() {
         <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/contact-us" element={<ContactPage />} />
       </Routes>
-      {/* <Footer /> */}
     </>
   );
 }

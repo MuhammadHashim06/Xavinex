@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./Navbar.css";
 import { Drawer, Button } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import logotext from "../../assets/Xavinex logo with left alignment-05.png"
 
@@ -51,7 +51,7 @@ export default function Navbar() {
         ) : (
           <div className="links">
             <ul>
-              <Link to="service">
+              <Link to="services">
                 <li>Services</li>
               </Link>
               <Link to="case-studies">
@@ -68,7 +68,10 @@ export default function Navbar() {
         )}
 
         <div className="callmeeting">
+          <NavLink to='contact-us'>
+
           <button>Schedule a Call</button>
+          </NavLink>
         </div>
 
         <Drawer
@@ -78,7 +81,7 @@ export default function Navbar() {
           visible={isDrawerVisible}
         >
           <ul className="drawer-links">
-            <Link to="service">
+            <Link to="services">
               <li>Services</li>
             </Link>
             <Link to="case-studies">
