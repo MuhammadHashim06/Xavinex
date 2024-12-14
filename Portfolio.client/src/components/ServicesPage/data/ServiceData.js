@@ -164,7 +164,7 @@ const aiSolutions = [
   ];
 
 
-  const developer = [
+  const developers = [
     {
       title: "Software developers",
       description: "Create intuitive, beautiful and easy-to-use user interfaces for websites and applications."
@@ -196,4 +196,4 @@ const aiSolutions = [
   ]
   
 
-  export { aiSolutions, productDevelopment, businessAdvisory, advancedTechSolutions, generativeAI, developer}
+  export { aiSolutions, productDevelopment, businessAdvisory, advancedTechSolutions, generativeAI, developers}
