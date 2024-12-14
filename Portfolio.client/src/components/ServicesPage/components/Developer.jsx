@@ -1,4 +1,5 @@
-import './Developer.css'
+import "./Developer.css";
+import { developers } from "../data/ServiceData";
 export default function Developer() {
   return (
     <div className="servicedeveloper">
@@ -10,17 +11,27 @@ export default function Developer() {
       </div>
 
       <div className="developer-list">
-        <div className="developer-card">
-          <div className="profile-img">
-            <img src="" alt="" />
-          </div>
+        {developers.map((d, index) => {
+          return (
+            <div className="developer-card" key={index}>
+              <div className="profile-img">
+                <img src={d.profileurl} alt="" />
+              </div>
+              <div className="profile-info">
+                <h1>{d.title}</h1>
+                <p>{d.description}</p>
+              </div>
+            </div>
+          );
+        })}
+        <div className="developer-card teamassemble">
+          <div className="profile-img"></div>
           <div className="profile-info">
             <h1>
-              
+              In addition to devs, we also provide clients with designers,
+              product managers, QA specialists, and more.
             </h1>
-            <p>
-              
-            </p>
+            <button>Assemble your team <i className="fas fa-arrow-right" ></i> </button>
           </div>
         </div>
       </div>

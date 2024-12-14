@@ -1,3 +1,4 @@
+import profileimg from '../../../assets/profileimage.png'
 const aiSolutions = [
     {
       imageurl: 'aiAutomation', 
@@ -166,30 +167,31 @@ const aiSolutions = [
 
   const developers = [
     {
+      profileurl:profileimg,
       title: "Software developers",
       description: "Create intuitive, beautiful and easy-to-use user interfaces for websites and applications."
     },
-    {
+    {profileurl:profileimg,
       title: "UX/UI Designers",
       description: "Create delightful digital experiences by wireframing and prototyping user interfaces."
     },
-    {
+    {profileurl:profileimg,
       title: "Project Managers/Product Owners",
       description: "Lead and manage the entire development process to ensure a project’s success."
     },
-    {
+    {profileurl:profileimg,
       title: "Business Analysts",
       description: "Identify and share valuable data insights that improve business and development processes."
     },
-    {
+    {profileurl:profileimg,
       title: "Back-end Developers",
       description: "Focus on non-visible software components such as logic, performance, servers, databases, and system design."
     },
-    {
+    {profileurl:profileimg,
       title: "QA Engineers",
       description: "Ensure mobile applications work as intended without errors."
     },
-    {
+    {profileurl:profileimg,
       title: "MLOps Engineers",
       description: "Ensure the reliability, scalability, and security of underlying infrastructure."
     }

@@ -1,0 +1,41 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Adjust the height */
+  }
+  
+  .mySwiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Custom Navigation Buttons */
+  .custom-navigation {
+    position: absolute;
+    top: 10px; /* Align at the top */
+    right: 20px; /* Align to the right */
+    z-index: 10;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .custom-prev,
+  .custom-next {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-prev:hover,
+  .custom-next:hover {
+    background-color: #555;
+  }
+  

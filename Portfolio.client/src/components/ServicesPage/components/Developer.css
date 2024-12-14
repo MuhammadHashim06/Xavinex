@@ -3,9 +3,133 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
 
         span {
             color: var(--primary-orange);
         }
     }
+
+    .developer-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 2%;
+
+        .developer-card {
+            display: flex;
+            flex-direction: column;
+            width: 275px;
+            height: 450px;
+            background-color: var(--light-grey);
+            border-radius: 10px;
+            align-items: center;
+            text-align: center;
+            padding: 1%;
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        .teamassemble {
+            justify-content: center;
+
+            button {
+                padding: 8px 16px;
+                color: white;
+                background-color: black;
+                transition: all 0.5s ease;
+            }
+
+            button:hover {
+                color: black;
+                background-color: white;
+                border-radius: 5px;
+            }
+        }
+    }
 }
+
+@media (max-width: 1024px) {
+    .servicedeveloper {
+        padding-top: 5%;
+        h1{
+            font-size: 1rem;
+        }
+    /* Tablet */
+    .developer-list {
+        flex-wrap: nowrap;
+        overflow-y: scroll;
+        justify-content: space-evenly;
+        padding: 3%;
+    }
+    .developer-list::-webkit-scrollbar{
+        display: none;
+    }
+
+    .developer-list .developer-card {
+        width: 230px;
+        /* Reduce card width for tablet */
+        height: auto;
+        /* Allow height to adjust based on content */
+        padding: 3%;
+    }
+
+    .developer-list .developer-card h1 {
+        font-size: 1.25rem;
+        /* Adjust heading size for tablet */
+    }
+
+    .developer-list .developer-card p {
+        font-size: 0.8rem;
+        /* Adjust text size for tablet */
+    }
+
+    .teamassemble {
+        button {
+            padding: 10px 20px;
+            /* Adjust button padding for tablet */
+        }
+    }
+}
+}
+@media (max-width: 768px) {
+    .servicedeveloper {
+    .developer-list {
+        gap: 15px;
+        padding: 5%;
+    }
+
+    .developer-list .developer-card {
+        width: 100%;
+        /* Make cards full-width on mobile */
+        height: auto;
+        /* Adjust height for mobile content */
+        padding: 5%;
+    }
+
+    .developer-list .developer-card h1 {
+        font-size: 1.2rem;
+        /* Adjust heading size for mobile */
+    }
+
+    .developer-list .developer-card p {
+        font-size: 0.875rem;
+        /* Adjust text size for mobile */
+    }
+
+    .teamassemble {
+        button {
+            width: 100%;
+            /* Make button full-width on mobile */
+            padding: 12px 20px;
+            /* Adjust button padding for mobile */
+        }
+    }
+}}

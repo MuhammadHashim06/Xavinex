@@ -107,7 +107,7 @@
         position: relative;
         padding: 5%;
         display: flex;
-        margin: 10%;
+        margin: 10% 10% 5% 10%;
         border-radius: 50px;
         background-color: var(--primary-blue);
 
