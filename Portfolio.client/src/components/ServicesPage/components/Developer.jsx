@@ -10,7 +10,19 @@ export default function Developer() {
       </div>
 
       <div className="developer-list">
-        
+        <div className="developer-card">
+          <div className="profile-img">
+            <img src="" alt="" />
+          </div>
+          <div className="profile-info">
+            <h1>
+              
+            </h1>
+            <p>
+              
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

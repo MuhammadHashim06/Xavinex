@@ -117,7 +117,7 @@
 
     /* Adjust landheader Padding for Tablets */
     .landheader {
-        padding: 8% 5% 0% 5%;
+        padding: 15% 5% 0% 5%;
         /* Reduced padding */
     }
 
@@ -151,7 +151,7 @@
 
     /* Adjust landheader Padding for Mobile */
     .landheader {
-        padding: 6% 5% 0% 5%;
+        padding: 15% 5% 0% 5%;
         /* Further reduced padding */
     }
 
