@@ -164,4 +164,36 @@ const aiSolutions = [
   ];
 
 
-  export { aiSolutions, productDevelopment, businessAdvisory, advancedTechSolutions, generativeAI}
+  const developer = [
+    {
+      title: "Software developers",
+      description: "Create intuitive, beautiful and easy-to-use user interfaces for websites and applications."
+    },
+    {
+      title: "UX/UI Designers",
+      description: "Create delightful digital experiences by wireframing and prototyping user interfaces."
+    },
+    {
+      title: "Project Managers/Product Owners",
+      description: "Lead and manage the entire development process to ensure a project’s success."
+    },
+    {
+      title: "Business Analysts",
+      description: "Identify and share valuable data insights that improve business and development processes."
+    },
+    {
+      title: "Back-end Developers",
+      description: "Focus on non-visible software components such as logic, performance, servers, databases, and system design."
+    },
+    {
+      title: "QA Engineers",
+      description: "Ensure mobile applications work as intended without errors."
+    },
+    {
+      title: "MLOps Engineers",
+      description: "Ensure the reliability, scalability, and security of underlying infrastructure."
+    }
+  ]
+  
+
+  export { aiSolutions, productDevelopment, businessAdvisory, advancedTechSolutions, generativeAI, developer}
