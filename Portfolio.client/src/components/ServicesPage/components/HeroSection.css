@@ -4,7 +4,7 @@
     .herobackground {
         background: linear-gradient(var(--primary-blue), var(--primary-orange));
         width: 100%;
-        height: 200vh;
+        height: 250vh;
         position: absolute;
     }
 
@@ -97,6 +97,30 @@
                 background-color: black;
                 color: white;
             }
+        }
+    }
+    .bookconsultation{
+        position: relative;
+        padding: 5%;
+        display: flex;
+       margin: 10%;
+        border-radius: 50px;
+        background-color: var(--primary-blue);
+        .leftpanel{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: start;
+        }
+        button{
+            padding: 10px 20px;
+                border-radius: 5px;
+                border: none;
+                background-color: var(--light-grey);
+        }
+        button:hover{
+            color: white;
+            background-color: black;
         }
     }
 }
