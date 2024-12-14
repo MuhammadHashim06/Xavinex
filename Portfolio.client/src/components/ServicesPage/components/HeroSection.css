@@ -88,9 +88,12 @@
 
                 }
             }
-        }.help{
+        }
+
+        .help {
             align-items: start;
-            button{
+
+            button {
                 padding: 10px 20px;
                 border-radius: 5px;
                 border: none;
@@ -99,28 +102,125 @@
             }
         }
     }
-    .bookconsultation{
+
+    .bookconsultation {
         position: relative;
         padding: 5%;
         display: flex;
-       margin: 10%;
+        margin: 10%;
         border-radius: 50px;
         background-color: var(--primary-blue);
-        .leftpanel{
+
+        .leftpanel {
             display: flex;
             flex-direction: column;
             gap: 20px;
             align-items: start;
         }
-        button{
-            padding: 10px 20px;
-                border-radius: 5px;
-                border: none;
-                background-color: var(--light-grey);
+
+        .rightpanel {
+            img {
+                width: 100%;
+            }
         }
-        button:hover{
+
+        button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: var(--light-grey);
+        }
+
+        button:hover {
             color: white;
             background-color: black;
+        }
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    /* Tablet */
+    .ServiceHero {
+        .herobackground {
+            height: 200vh;
+            /* Reduce height for tablet */
+        }
+
+        .herocontent {
+            padding-top: 15%;
+        }
+
+        .middletitle h1 {
+            font-size: 2rem;
+            /* Adjust title size for smaller screens */
+        }
+
+        .servicesection {
+            padding: 3%;
+        }
+
+        .servicecard {
+            width: 100%;
+            border-radius: 15px;
+            /* Make service cards full-width on tablet */
+            padding: 2%;
+        }
+
+        .bookconsultation {
+            flex-direction: column;
+            padding: 5%;
+            margin: 5%;
+            /* Reduce margin for smaller screens */
+        }
+
+        .servicesection .servicecard ul {
+            grid-template-columns: 1fr;
+            /* Stack the items in the list for smaller screens */
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Mobile */
+    .ServiceHero {
+        .herobackground {
+            height: 450vh;
+            /* Further reduce height for mobile */
+        }
+
+        .herocontent {
+            padding-top: 20%;
+        }
+
+        .middletitle h1 {
+            font-size: 1.5rem;
+            /* Smaller title for mobile */
+        }
+
+        .servicecard {
+            width: 100%;
+            /* Full-width service cards */
+            padding: 5%;
+        }
+
+        .bookconsultation {
+            padding: 3%;
+            margin: 3%;
+            border-radius: 15px;
+            /* Reduce margin even more for mobile */
+        }
+
+        .bookconsultation .leftpanel {
+            align-items: center;
+            /* Center align the left panel for mobile */
+        }
+
+        .servicesection .servicecard ul {
+            grid-template-columns: 1fr;
+            /* Stack list items vertically on mobile */
         }
     }
 }
