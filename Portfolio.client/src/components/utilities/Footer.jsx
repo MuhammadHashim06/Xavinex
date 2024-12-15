@@ -75,7 +75,7 @@ export default function Footer() {
         </li>
         <li>
           <i className="fas fa-envelope"></i>
-          <a href="mailto:sales@clustox.com">sales@Xavinex.com</a>
+          <a href="mailto:info@xavinex.com">info@xavinex.com</a>
         </li>
         <li>
           <i className="fas fa-map-marker-alt"></i>
