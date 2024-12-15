@@ -1,0 +1,131 @@
+.expertbanner {
+    padding-top: 5%;
+
+    .mainbanner {
+        display: flex;
+        align-items: center;
+        color: white;
+        background-color: var(--primary-blue);
+        padding: 5%;
+        margin: 5%;
+        border-radius: 10px;
+
+        .leftpanel {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: start;
+
+            span {
+                color: black;
+            }
+
+            ul {
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+            }
+
+            button {
+                background-color: var(--dark-grey);
+                color: white;
+                border: none;
+                padding: 10px 20px;
+            }
+        }
+    }
+
+    .lowerbanner {
+        .expertslist {
+            span {
+                color: var(--primary-orange);
+            }
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            padding: 5%;
+            gap: 20px;
+
+            .expertcard {
+                background-color: var(--light-grey);
+                padding: 5%;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                button {
+                    background-color: black;
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .expertbanner {
+        .mainbanner {
+            flex-direction: column;
+            padding: 10%;
+            margin: 10%;
+        }
+
+        .lowerbanner {
+            .expertslist {
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .mainbanner {
+            padding: 5%;
+            margin: 5%;
+            img{
+                display: none;
+            }
+        }
+
+        .lowerbanner {
+            .expertslist {
+                grid-template-columns: 1fr;
+                padding: 5%;
+            }
+
+            .expertcard {
+                padding: 3%;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 480px) {
+    .expertbanner {
+        .mainbanner {
+            padding: 5%;
+            margin: 5%;
+        }
+
+        .lowerbanner {
+            .expertslist {
+                grid-template-columns: 1fr;
+            }
+
+            .expertcard {
+                padding: 3%;
+                gap: 15px;
+            }
+
+            button {
+                padding: 8px 16px;
+            }
+        }
+    }
+}
