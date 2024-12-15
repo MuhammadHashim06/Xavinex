@@ -51,13 +51,13 @@ export default function Navbar() {
         ) : (
           <div className="links">
             <ul>
-              <Link to="services">
+              <Link to="/services">
                 <li>Services</li>
               </Link>
-              <Link to="case-studies">
+              <Link to="/case-studies">
                 <li>Case Studies</li>
               </Link>
-              <Link to="hire-expert">
+              <Link to="/hire-expert">
                 <li>Hire Expert</li>
               </Link>
               {/* <Link to="resources">
@@ -81,13 +81,13 @@ export default function Navbar() {
           visible={isDrawerVisible}
         >
           <ul className="drawer-links">
-            <Link to="services">
+            <Link to="/services">
               <li>Services</li>
             </Link>
-            <Link to="case-studies">
+            <Link to="/case-studies">
               <li>Case Studies</li>
             </Link>
-            <Link to="hire-expert">
+            <Link to="/hire-expert">
               <li>Hire Expert</li>
             </Link>
             {/* <Link to="resources">
