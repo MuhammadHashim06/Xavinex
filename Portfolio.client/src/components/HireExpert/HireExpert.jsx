@@ -1,6 +1,11 @@
-
+import Navbar from '../utilities/Navbar'
+import Footer from '../utilities/Footer'
 export default function HireExpert() {
   return (
-    <div>HireExpert</div>
+    <div>
+      <Navbar/>
+
+      <Footer/>
+    </div>
   )
 }
