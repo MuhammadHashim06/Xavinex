@@ -20,5 +20,27 @@ const expertise = [
       cta: "Schedule a Call"
     }
   ];
+  const DevelopmentServices = [
+    {
+      id: 1,
+      title: "Component-based architecture",
+      description: "Simplify developing and managing your React development project by getting proper component-based architecture and ensuring the timely delivery of applications."
+    },
+    {
+      id: 2,
+      title: "Access to a vast talent pool",
+      description: "Leverage the capabilities of our expert React development and extend your teams by getting access to a vast pool of talented developers."
+    },
+    {
+      id: 3,
+      title: "Seamless Migration to React",
+      description: "Efficiently migrate your existing applications to React, no matter what legacy platforms it was previously developed on without getting into much hassle."
+    },
+    {
+      id: 4,
+      title: "High Performance Outcome",
+      description: "Ensure your system operates at peak efficiency by utilizing the power of our high-performing React development services tailored for you."
+    }
+  ];
   
-  export {expertise}
+  export {expertise,DevelopmentServices}
